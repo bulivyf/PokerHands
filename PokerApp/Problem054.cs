@@ -17,7 +17,7 @@ namespace ProjectEulerSolutions
 
         public void DoProblem()
         {
-            List<String> plays = GetPlaysFromFile("../../../Data/p54_poker.txt");
+            List<String> plays = GetPlaysFromFile("../../../PokerApp/Data/p54_poker.txt");
 
             var enumlist = SubDivideList(plays, 250);
             var strlist = enumlist.ToList();
